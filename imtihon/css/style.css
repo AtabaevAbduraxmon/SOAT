@@ -1,0 +1,245 @@
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1165px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.wrapper_1 div {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    color: black;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    align-items: center;
+}
+.div_5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.div_2 {
+    width: 200px;
+    height: 200px;
+    padding: 10px 10px;
+    background-color: rgb(7, 29, 135);
+    border-radius: 50%;
+    margin-top: 150px;
+    font-size: 50px;
+    color: white;
+    border:none
+
+}
+
+.div_1 {
+    width: 300px;
+    height: 300px;
+    padding: 10px 10px;
+    background-color: rgb(163, 172, 31);
+    border-radius: 50%;
+    font-size: 50px;
+    color: white;
+    border: none;
+}
+
+.div_3 {
+    width: 200px;
+    height: 200px;
+    padding: 10px 10px;
+    background-color: rgb(83, 171, 83);
+    border-radius: 50%;
+    font-size: 50px;
+    border: none;
+    margin-top: 150px;
+    color: white;
+}
+.div {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    margin-top: 50px;
+}
+
+.wrapper_2 {
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.btn_1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    background-color:rgb(3, 203, 253);
+    font-size: 60px;
+    color: aliceblue;
+    border: none;
+    margin-top: 80px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.btn_1:hover {
+    transform: translateY(-30px);
+    transition: all 0.7s ease;
+}
+.btn_2:hover {
+    transform: translateY(-20px);
+    transition: all 0.7s ease;
+}
+.btn_3:hover {
+    transform: translateY(-30px);
+    transition: all 0.7s ease;
+}
+
+.text_1 {
+    width: 300px;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(124, 122, 122);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.box2-text span {
+    margin-bottom: 5px;
+}
+.wrapper_3 {
+    margin-top: 5px;
+}
+
+.btn_2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-color:rgb(253, 165, 3);
+    font-size: 100px;
+    margin-left: 20px;
+    color: aliceblue;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+.text_2 {
+    width: 300px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(124, 122, 122);
+    margin-left: 25px;
+}
+
+.box-text span {
+    margin-left: 30px;
+}
+
+.wrapper_4 {
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.btn_3 {
+    width: 200px;
+    height: 200px;
+    margin-top: 80px;
+    border-radius: 150px;
+    background-color:rgb(3, 253, 170);
+    font-size: 60px;
+    color: aliceblue;
+    border: none;
+    margin-left: 80px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.text_3 {
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(124, 122, 122);
+    margin-left: 30px;
+}
+
+.box3-text span {
+    margin-left: 40px;
+} 
+
+.box67 {
+    margin-top: 200px;
+}
+.pos_abs_1 {
+    position: absolute;
+    top: 288px;
+    left: 140px;
+    text-align: center; 
+    font-size: 30px;
+    z-index: 1;
+}
+.pos_abs_2 {
+    position: absolute;
+    top: 238px;
+    left: 550px;
+    text-align: center; 
+    font-size: 30px;
+    z-index: 1;
+}
+.pos_abs_4 {
+    position: absolute;
+    top: 253px;
+    left: 546px;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+}
+.pos_abs_5 {
+    position: absolute;
+    top: 308px;
+    left: 132px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%; 
+}
+.pos_abs_6 {
+    position: absolute;
+    top: 304px;
+    right: 132px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;   
+}
+.pos_abs_3 {
+    position: absolute;
+    top: 283px;
+    right: 141px;
+    text-align: center; 
+    font-size: 30px;
+    z-index: 1;
+}
